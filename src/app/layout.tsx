@@ -6,6 +6,7 @@ import { IoLogoFacebook, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
 
 import { Logo } from '@/components/logo';
 import { Toaster } from '@/components/ui/toaster';
+import { PostHogProvider } from '@/libs/posthog/client';
 import { cn } from '@/utils/cn';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -35,15 +36,17 @@ export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang='en'>
       <body className={cn('font-sans antialiased', montserrat.variable, montserratAlternates.variable)}>
-        <div className='m-auto flex h-full max-w-[1440px] flex-col px-4'>
-          <AppBar />
-          <main className='relative flex-1'>
-            <div className='relative h-full'>{children}</div>
-          </main>
-          <Footer />
-        </div>
-        <Toaster />
-        <Analytics />
+        <PostHogProvider>
+          <div className='m-auto flex h-full max-w-[1440px] flex-col px-4'>
+            <AppBar />
+            <main className='relative flex-1'>
+              <div className='relative h-full'>{children}</div>
+            </main>
+            <Footer />
+          </div>
+          <Toaster />
+          <Analytics />
+        </PostHogProvider>
       </body>
     </html>
   );
