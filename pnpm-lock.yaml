@@ -9,25 +9,25 @@ importers:
   .:
     dependencies:
       '@radix-ui/react-collapsible':
-        specifier: ^1.1.12
+        specifier: ^1.1.2
         version: 1.1.12(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@radix-ui/react-dialog':
-        specifier: ^1.1.15
+        specifier: ^1.1.4
         version: 1.1.15(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@radix-ui/react-dropdown-menu':
-        specifier: ^2.1.16
+        specifier: ^2.1.4
         version: 2.1.16(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@radix-ui/react-icons':
         specifier: ^1.3.2
         version: 1.3.2(react@19.2.5)
       '@radix-ui/react-slot':
-        specifier: ^1.2.4
+        specifier: ^1.1.1
         version: 1.2.4(@types/react@19.2.14)(react@19.2.5)
       '@radix-ui/react-tabs':
-        specifier: ^1.1.13
+        specifier: ^1.1.2
         version: 1.1.13(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@radix-ui/react-toast':
-        specifier: ^1.2.15
+        specifier: ^1.2.4
         version: 1.2.15(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@react-email/components':
         specifier: ^0.0.32
@@ -42,10 +42,10 @@ importers:
         specifier: ^0.5.2
         version: 0.5.2(@supabase/supabase-js@2.103.0)
       '@supabase/supabase-js':
-        specifier: ^2.103.0
+        specifier: ^2.47.12
         version: 2.103.0
       '@vercel/analytics':
-        specifier: ^1.6.1
+        specifier: ^1.4.1
         version: 1.6.1(next@15.5.18(@babel/core@7.24.5)(@opentelemetry/api@1.9.1)(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(react@19.2.5)
       class-variance-authority:
         specifier: ^0.7.1
@@ -84,10 +84,10 @@ importers:
         specifier: ^2.1.6
         version: 2.1.6(@opentelemetry/api@1.9.1)(@swc/helpers@0.5.15)(eslint@8.57.1)
       react-icons:
-        specifier: ^5.6.0
+        specifier: ^5.4.0
         version: 5.6.0(react@19.2.5)
       resend:
-        specifier: ^4.8.0
+        specifier: ^4.1.1
         version: 4.8.0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       server-only:
         specifier: ^0.0.1
@@ -99,16 +99,16 @@ importers:
         specifier: ^14.25.0
         version: 14.25.0
       tailwind-merge:
-        specifier: ^2.6.1
+        specifier: ^2.6.0
         version: 2.6.1
       tailwindcss:
-        specifier: ^3.4.19
+        specifier: ^3.4.17
         version: 3.4.19(yaml@2.8.3)
       tailwindcss-animate:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.19(yaml@2.8.3))
       zod:
-        specifier: ^3.25.76
+        specifier: ^3.24.1
         version: 3.25.76
     devDependencies:
       '@next/bundle-analyzer':
@@ -121,7 +121,7 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.14)
       autoprefixer:
-        specifier: ^10.4.27
+        specifier: ^10.4.20
         version: 10.4.27(postcss@8.5.9)
       env-cmd:
         specifier: ^10.1.0
@@ -130,22 +130,22 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       eslint-config-next:
-        specifier: ^15.5.15
+        specifier: ^15.1.4
         version: 15.5.15(eslint@8.57.1)(typescript@5.9.3)
       eslint-config-prettier:
-        specifier: ^8.10.2
+        specifier: ^8.10.0
         version: 8.10.2(eslint@8.57.1)
       eslint-plugin-react:
-        specifier: ^7.37.5
+        specifier: ^7.37.3
         version: 7.37.5(eslint@8.57.1)
       eslint-plugin-simple-import-sort:
         specifier: ^10.0.0
         version: 10.0.0(eslint@8.57.1)
       eslint-plugin-tailwindcss:
-        specifier: ^3.18.2
+        specifier: ^3.17.5
         version: 3.18.2(tailwindcss@3.4.19(yaml@2.8.3))
       postcss:
-        specifier: ^8.5.9
+        specifier: ^8.4.49
         version: 8.5.9
       prettier:
         specifier: ^2.8.8
@@ -157,7 +157,7 @@ importers:
         specifier: ^1.226.4
         version: 1.226.4
       typescript:
-        specifier: ^5.9.3
+        specifier: ^5.7.3
         version: 5.9.3
 
 packages:
@@ -2834,9 +2834,6 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
 
-  caniuse-lite@1.0.30001787:
-    resolution: {integrity: sha512-mNcrMN9KeI68u7muanUpEejSLghOKlVhRqS/Za2IeyGllJ9I9otGpR9g3nsw7n4W378TE/LyIteA0+/FOZm4Kg==}
-
   caniuse-lite@1.0.30001792:
     resolution: {integrity: sha512-hVLMUZFgR4JJ6ACt1uEESvQN1/dBVqPAKY0hgrV70eN3391K6juAfTjKZLKvOMsx8PxA7gsY1/tLMMTcfFLLpw==}
 
@@ -3943,11 +3940,6 @@ packages:
 
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
-
-  nanoid@3.3.11:
-    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
 
   nanoid@3.3.12:
     resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
@@ -7648,7 +7640,7 @@ snapshots:
   autoprefixer@10.4.27(postcss@8.5.9):
     dependencies:
       browserslist: 4.28.2
-      caniuse-lite: 1.0.30001787
+      caniuse-lite: 1.0.30001792
       fraction.js: 5.3.4
       picocolors: 1.1.1
       postcss: 8.5.9
@@ -7708,7 +7700,7 @@ snapshots:
   browserslist@4.28.2:
     dependencies:
       baseline-browser-mapping: 2.10.29
-      caniuse-lite: 1.0.30001787
+      caniuse-lite: 1.0.30001792
       electron-to-chromium: 1.5.335
       node-releases: 2.0.37
       update-browserslist-db: 1.2.3(browserslist@4.28.2)
@@ -7744,8 +7736,6 @@ snapshots:
   callsites@3.1.0: {}
 
   camelcase-css@2.0.1: {}
-
-  caniuse-lite@1.0.30001787: {}
 
   caniuse-lite@1.0.30001792: {}
 
@@ -8982,8 +8972,6 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nanoid@3.3.11: {}
-
   nanoid@3.3.12: {}
 
   napi-postinstall@0.3.4: {}
@@ -9270,7 +9258,7 @@ snapshots:
 
   postcss@8.5.9:
     dependencies:
-      nanoid: 3.3.11
+      nanoid: 3.3.12
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
