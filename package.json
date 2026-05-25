@@ -75,5 +75,13 @@
   "overrides": {
     "@types/react": "19.0.4",
     "@types/react-dom": "19.0.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "next": ">=15.5.18 <16",
+      "tar": ">=7.5.10",
+      "fast-uri": ">=3.1.2",
+      "glob": ">=10.5.0"
+    }
   }
 }
